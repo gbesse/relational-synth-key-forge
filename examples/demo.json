@@ -1,0 +1,33 @@
+{
+  "seed": 7,
+  "tables": [
+    {
+      "id": "customer",
+      "count": 3,
+      "columns": {
+        "tier": {
+          "kind": "category",
+          "values": [
+            "a",
+            "b"
+          ]
+        }
+      }
+    },
+    {
+      "id": "invoice",
+      "count": 5,
+      "columns": {
+        "customer_id": {
+          "kind": "foreign",
+          "table": "customer"
+        },
+        "amount": {
+          "kind": "integer",
+          "minimum": 1,
+          "maximum": 100
+        }
+      }
+    }
+  ]
+}

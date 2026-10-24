@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Générer des tables synthétiques reliées sans clé étrangère orpheline', 'en': 'Generate linked synthetic tables without orphan foreign keys', 'es': 'Generar tablas sintéticas relacionadas sin claves foráneas huérfanas'}

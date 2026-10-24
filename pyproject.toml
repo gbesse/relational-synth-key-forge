@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "relational-synth-key-forge"
+version = "0.1.0a1"
+description = "FR: Générer des tables synthétiques reliées sans clé étrangère orpheline | EN: Generate linked synthetic tables without orphan foreign keys | ES: Generar tablas sintéticas relacionadas sin claves foráneas huérfanas"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+relational-synth-key-forge = "relational_synth_key_forge.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["relational_synth_key_forge*"]
